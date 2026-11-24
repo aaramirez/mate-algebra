@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KX76XF8R');</script>
+<!-- End Google Tag Manager -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Álgebra abstracta</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Grupos, anillos y cuerpos: subgrupos y el teorema de Lagrange, cocientes y homomorfismos, el grupo simétrico y las acciones, ideales y dominios de factorización única, anillos de polinomios, extensiones de cuerpos, cuerpos finitos y la imposibilidad de duplicar el cubo y trisecar el ángulo con regla y compás.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400;1,8..60,600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KX76XF8R"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="wrap" data-page="index">
+<header class="topbar"><a class="brand" href="index.html">Álgebra <b>abstracta</b></a><span class="eyebrow">Curso visual e interactivo · Matemática</span><a class="al-sitio" href="https://aaramirez.github.io/">← Todos los cursos</a></header>
+<div class="layout">
+<nav class="toc" id="toc" aria-label="Ruta de aprendizaje"></nav>
+<main>
+
+<p class="aviso-curado" role="note">El material de Matemática está en proceso de curado: puede tener errores.</p>
+<header class="hero">
+  <span class="eyebrow">Curso visual e interactivo · Matemática</span>
+  <h1>Por qué nadie pudo trisecar un ángulo con regla y compás en dos mil años</h1>
+  <p class="lede">Las simetrías de un cuadrado, los relojes, los polinomios y los números construibles con regla y compás obedecen las mismas pocas reglas. El álgebra abstracta las aísla en tres estructuras (grupos, anillos y cuerpos) y con ellas responde preguntas que la geometría griega no pudo cerrar. Este curso las construye una a una, con demostraciones completas y objetos que se mueven.</p>
+</header>
+
+<section>
+  <h2>Cómo usar este curso</h2>
+  <div class="prose">
+    <p><b>Estado.</b> El curso está en preparación. La <a href="temario.html">tabla de contenido</a> ya tiene los 14 capítulos con sus secciones y sus laboratorios, y está en revisión.</p>
+    <p><b>Para quién es.</b> Para estudiantes de matemática en su curso de álgebra moderna y para quien quiera la base de la criptografía y los códigos. Conviene haber leído Matemáticas discretas (divisibilidad, el algoritmo de Euclides y las congruencias módulo n) y Álgebra lineal (espacios vectoriales, bases y dimensión, que aquí se usan para medir extensiones de cuerpos).</p>
+    <p><b>Cómo está hecho.</b> Dos objetos recorren el curso: las simetrías de un cuadrado, que se giran y se reflejan a mano, y el cubo de Rubik, un grupo enorme que se explora con las mismas herramientas. En la segunda mitad el hilo pasa a los polinomios y a los números que se construyen con regla y compás. Los laboratorios dejan operar en grupos, colorear tablas de Cayley, dividir polinomios y construir con regla y compás; las prácticas usan SymPy (`sympy.combinatorics`, `Poly`, `GF`) y GeoGebra. El curso es la base de Criptografía y de la teoría de códigos de Teoría de la información.</p>
+  </div>
+</section>
+
+<details class="stage" id="temario" open><summary><h2><span class="pn">Empieza aquí</span> Tabla de contenido</h2></summary>
+  <div class="mods">
+    <a class="mod" href="temario.html"><span class="n">≡</span><b>Tabla de contenido</b><p>Cada capítulo con sus secciones y sus laboratorios.</p></a>
+  </div>
+</details>
+
+<details class="stage" id="parte-1" open><summary><h2><span class="pn">Parte 1</span> Grupos</h2><span class="cuenta" data-etapa-cuenta="1"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="grupos"><span class="n">01</span><b>Grupos, subgrupos y grupos cíclicos</b><p>La definición de grupo a partir de las simetrías de un cuadrado, subgrupos, el orden de un elemento y los grupos cíclicos.</p></div>
+    <div class="mod soon" data-id="lagrange-y-cocientes"><span class="n">02</span><b>Clases laterales, el teorema de Lagrange y grupos cociente</b><p>Las clases laterales parten el grupo en piezas iguales; con subgrupos normales, esas piezas forman un grupo nuevo.</p></div>
+    <div class="mod soon" data-id="homomorfismos"><span class="n">03</span><b>Homomorfismos e isomorfismos</b><p>Las funciones que respetan la operación, el núcleo, los teoremas de isomorfismo y los automorfismos internos.</p></div>
+    <div class="mod soon" data-id="grupo-simetrico"><span class="n">04</span><b>El grupo simétrico y las representaciones</b><p>Permutaciones, ciclos y signo, el grupo alternante, el teorema de Cayley y los grupos como matrices.</p></div>
+    <div class="mod soon" data-id="acciones-de-grupos"><span class="n">05</span><b>Acciones de grupos y conteo</b><p>Un grupo que mueve un conjunto: órbitas, estabilizadores, el lema de Burnside y la ecuación de clases.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-2" open><summary><h2><span class="pn">Parte 2</span> Anillos</h2><span class="cuenta" data-etapa-cuenta="2"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="anillos-e-ideales"><span class="n">06</span><b>Anillos, ideales y anillos cociente</b><p>Clases de anillos, ideales como núcleos, anillos cociente, ideales primos y maximales.</p></div>
+    <div class="mod soon" data-id="cuerpo-de-fracciones"><span class="n">07</span><b>El cuerpo de fracciones y la localización</b><p>Todo dominio de integridad vive dentro de un cuerpo, construido igual que los racionales a partir de los enteros.</p></div>
+    <div class="mod soon" data-id="factorizacion-unica"><span class="n">08</span><b>Dominios euclídeos, de ideales principales y de factorización única</b><p>Cuándo un anillo tiene división con resto, cuándo todos sus ideales son principales y cuándo la factorización es única.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-3" open><summary><h2><span class="pn">Parte 3</span> Polinomios</h2><span class="cuenta" data-etapa-cuenta="3"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="anillo-de-polinomios"><span class="n">09</span><b>El anillo de polinomios K[x]</b><p>División con resto, máximo común divisor, ideales principales, irreducibilidad y los cuerpos K[x]/(p).</p></div>
+    <div class="mod soon" data-id="polinomios-en-varias-variables"><span class="n">10</span><b>Polinomios en varias variables</b><p>K[x, y] ya no es de ideales principales: ideales, el teorema de la base de Hilbert y una mirada a las bases de Gröbner.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-4" open><summary><h2><span class="pn">Parte 4</span> Cuerpos</h2><span class="cuenta" data-etapa-cuenta="4"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="extensiones-de-cuerpos"><span class="n">11</span><b>Extensiones de cuerpos</b><p>Grado de una extensión, elementos algebraicos y trascendentes, polinomio minimal y cuerpo de descomposición.</p></div>
+    <div class="mod soon" data-id="cuerpos-finitos"><span class="n">12</span><b>Cuerpos finitos</b><p>Todo cuerpo finito tiene pⁿ elementos, hay uno solo de cada tamaño y su grupo multiplicativo es cíclico.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-5" open><summary><h2><span class="pn">Parte 5</span> Lo imposible</h2><span class="cuenta" data-etapa-cuenta="5"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="regla-y-compas"><span class="n">13</span><b>Construcciones con regla y compás</b><p>Los números construibles forman torres de extensiones cuadráticas: por eso no se puede duplicar el cubo ni trisecar el ángulo.</p></div>
+    <div class="mod soon" data-id="hacia-galois"><span class="n">14</span><b>Una mirada a Galois: por qué no hay fórmula para la quíntica</b><p>El grupo de simetrías de las raíces de un polinomio decide si se puede resolver por radicales.</p></div>
+  </div>
+</details>
+
+
+
+<nav class="pager" id="pager" aria-label="Capítulo anterior y siguiente"></nav>
+</main>
+</div>
+<footer><span>Curso abierto de aaramirez.github.io.</span><span>Sitio publicado: <a href="https://github.com/aaramirez/mate-algebra" target="_blank" rel="noopener">github.com/aaramirez/mate-algebra</a></span></footer>
+</div>
+<script src="assets/lab.js"></script>
+</body>
+</html>
